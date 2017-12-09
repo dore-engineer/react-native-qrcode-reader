@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.google.zxing.ResultPoint;
@@ -21,7 +22,6 @@ public class ContinuousCaptureActivity extends AppCompatActivity {
     private DecoratedBarcodeView barcodeView;
     private BeepManager beepManager;
     private String lastText;
-    private TextView textView;
 
     private BarcodeCallback callback = new BarcodeCallback() {
         @Override
@@ -51,8 +51,15 @@ public class ContinuousCaptureActivity extends AppCompatActivity {
         String title = getIntent().getStringExtra("title");
         setContentView(R.layout.activity_continuous_capture);
         barcodeView = (DecoratedBarcodeView) findViewById(R.id.barcode_scanner);
-        textView = (TextView) findViewById(R.id.toolBarTitle);
+        TextView textView = (TextView) findViewById(R.id.toolBarTitle);
         textView.setText(title);
+        ImageButton imageButton = (ImageButton) findViewById(R.id.btnBack);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         barcodeView.decodeContinuous(callback);
         barcodeView.setStatusText(placeholder);
         beepManager = new BeepManager(this);
