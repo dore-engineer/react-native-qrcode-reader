@@ -1,0 +1,19 @@
+{
+  "name": "react-native-qrcode-reader",
+  "version": "0.1.0",
+  "description": "QRCode scan for react native, available on Android and IOS",
+  "main": "index.js",
+  "nativePackage": true,
+  "keywords": [
+    "react-native",
+    "Qrcode",
+    "scan"
+  ],
+  "author": "phumaster",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dore-engineer/react-native-qrcode-reader"
+  },
+  "types": "./index.d.ts"
+}

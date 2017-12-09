@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61552EE51FDBCCB800C144FB /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 61552ED81FDBCCB700C144FB /* QRCodeReader.m */; };
+		61552EE61FDBCCB800C144FB /* QRToggleTorchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 61552EDB1FDBCCB700C144FB /* QRToggleTorchButton.m */; };
+		61552EE71FDBCCB800C144FB /* RNQRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 61552EDC1FDBCCB700C144FB /* RNQRCodeReader.m */; };
+		61552EE81FDBCCB800C144FB /* QRCameraSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 61552EDD1FDBCCB700C144FB /* QRCameraSwitchButton.m */; };
+		61552EE91FDBCCB800C144FB /* QRCodeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61552EDF1FDBCCB700C144FB /* QRCodeReaderView.m */; };
+		61552EEA1FDBCCB800C144FB /* QRCodeReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61552EE31FDBCCB700C144FB /* QRCodeReaderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		61552ECA1FDBCC6F00C144FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		61552ECC1FDBCC6F00C144FB /* libRNQRCodeReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNQRCodeReader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61552ED81FDBCCB700C144FB /* QRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
+		61552ED91FDBCCB700C144FB /* QRCodeReaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderDelegate.h; sourceTree = "<group>"; };
+		61552EDA1FDBCCB700C144FB /* QRCodeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderView.h; sourceTree = "<group>"; };
+		61552EDB1FDBCCB700C144FB /* QRToggleTorchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRToggleTorchButton.m; sourceTree = "<group>"; };
+		61552EDC1FDBCCB700C144FB /* RNQRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNQRCodeReader.m; sourceTree = "<group>"; };
+		61552EDD1FDBCCB700C144FB /* QRCameraSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCameraSwitchButton.m; sourceTree = "<group>"; };
+		61552EDE1FDBCCB700C144FB /* RNQRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNQRCodeReader.h; sourceTree = "<group>"; };
+		61552EDF1FDBCCB700C144FB /* QRCodeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderView.m; sourceTree = "<group>"; };
+		61552EE01FDBCCB700C144FB /* QRCameraSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCameraSwitchButton.h; sourceTree = "<group>"; };
+		61552EE11FDBCCB700C144FB /* QRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReader.h; sourceTree = "<group>"; };
+		61552EE21FDBCCB700C144FB /* QRCodeReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReaderViewController.h; sourceTree = "<group>"; };
+		61552EE31FDBCCB700C144FB /* QRCodeReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReaderViewController.m; sourceTree = "<group>"; };
+		61552EE41FDBCCB800C144FB /* QRToggleTorchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRToggleTorchButton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61552EC91FDBCC6F00C144FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61552EC31FDBCC6F00C144FB = {
+			isa = PBXGroup;
+			children = (
+				61552ECE1FDBCC6F00C144FB /* RNQRCodeReader */,
+				61552ECD1FDBCC6F00C144FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61552ECD1FDBCC6F00C144FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61552ECC1FDBCC6F00C144FB /* libRNQRCodeReader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61552ECE1FDBCC6F00C144FB /* RNQRCodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				61552EE01FDBCCB700C144FB /* QRCameraSwitchButton.h */,
+				61552EDD1FDBCCB700C144FB /* QRCameraSwitchButton.m */,
+				61552EE11FDBCCB700C144FB /* QRCodeReader.h */,
+				61552ED81FDBCCB700C144FB /* QRCodeReader.m */,
+				61552ED91FDBCCB700C144FB /* QRCodeReaderDelegate.h */,
+				61552EDA1FDBCCB700C144FB /* QRCodeReaderView.h */,
+				61552EDF1FDBCCB700C144FB /* QRCodeReaderView.m */,
+				61552EE21FDBCCB700C144FB /* QRCodeReaderViewController.h */,
+				61552EE31FDBCCB700C144FB /* QRCodeReaderViewController.m */,
+				61552EE41FDBCCB800C144FB /* QRToggleTorchButton.h */,
+				61552EDB1FDBCCB700C144FB /* QRToggleTorchButton.m */,
+				61552EDE1FDBCCB700C144FB /* RNQRCodeReader.h */,
+				61552EDC1FDBCCB700C144FB /* RNQRCodeReader.m */,
+			);
+			path = RNQRCodeReader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61552ECB1FDBCC6F00C144FB /* RNQRCodeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61552ED51FDBCC6F00C144FB /* Build configuration list for PBXNativeTarget "RNQRCodeReader" */;
+			buildPhases = (
+				61552EC81FDBCC6F00C144FB /* Sources */,
+				61552EC91FDBCC6F00C144FB /* Frameworks */,
+				61552ECA1FDBCC6F00C144FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNQRCodeReader;
+			productName = RNQRCodeReader;
+			productReference = 61552ECC1FDBCC6F00C144FB /* libRNQRCodeReader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61552EC41FDBCC6F00C144FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "DORE VIET NAM";
+				TargetAttributes = {
+					61552ECB1FDBCC6F00C144FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 61552EC71FDBCC6F00C144FB /* Build configuration list for PBXProject "RNQRCodeReader" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 61552EC31FDBCC6F00C144FB;
+			productRefGroup = 61552ECD1FDBCC6F00C144FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61552ECB1FDBCC6F00C144FB /* RNQRCodeReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61552EC81FDBCC6F00C144FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61552EE51FDBCCB800C144FB /* QRCodeReader.m in Sources */,
+				61552EEA1FDBCCB800C144FB /* QRCodeReaderViewController.m in Sources */,
+				61552EE61FDBCCB800C144FB /* QRToggleTorchButton.m in Sources */,
+				61552EE91FDBCCB800C144FB /* QRCodeReaderView.m in Sources */,
+				61552EE71FDBCCB800C144FB /* RNQRCodeReader.m in Sources */,
+				61552EE81FDBCCB800C144FB /* QRCameraSwitchButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		61552ED31FDBCC6F00C144FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		61552ED41FDBCC6F00C144FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61552ED61FDBCC6F00C144FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61552ED71FDBCC6F00C144FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61552EC71FDBCC6F00C144FB /* Build configuration list for PBXProject "RNQRCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61552ED31FDBCC6F00C144FB /* Debug */,
+				61552ED41FDBCC6F00C144FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61552ED51FDBCC6F00C144FB /* Build configuration list for PBXNativeTarget "RNQRCodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61552ED61FDBCC6F00C144FB /* Debug */,
+				61552ED71FDBCC6F00C144FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61552EC41FDBCC6F00C144FB /* Project object */;
+}

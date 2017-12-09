@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QRcodeReader</string>
+    <string name="title_activity_continuous_capture">ContinuousCaptureActivity</string>
+</resources>
